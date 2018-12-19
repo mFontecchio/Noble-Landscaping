@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Noble Landscaping - View Our Work</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link href="styles/Noble.css" rel="stylesheet">
+<link href="styles/gallery.css" rel="stylesheet">
+<link href="styles/mobile.css" rel="stylesheet">
+<script src="scripts/main.js"></script>
+<style>
+</style>
+<!--[if lt IE 9]>
+<script src"http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+</head>
+<body id="ourWork">
+<div id="wrapper">
+<header>
+<img class="logo" src="images/NobleLogo.png" alt="Noble Lanscaping LLC">
+</header>
+
+<span class="desktop">
+	<span class="search_bar">
+		<input type="search" name="Search" placeholder="Search..."/>
+	</span>
+</span>
+  
+<div  class="mobilenav" id="mobileNav">
+		<a href="index.html" class="index">Home</a>
+		<div class="menuContainer" onclick="mobileNavToggle()">
+			<div class="line1"></div>
+			<div class="line2"></div>
+			<div class="line3"></div>
+		</div>
+		<a href="about.html" class="about">About Us</a>
+		<a href="about/ourTeam.html" class="ourTeam">Our Team</a>
+		<a href="about/testimonials.html" class="testimonial">Testimonials</a>
+		<a href="services.html" class="services">Our Services</a>
+		<a href="services/designers.html" class="designers">Designers & Decorators</a>
+		<a href="services/landscaping.html" class="landscaping">Landscaping</a>
+		<a href="services/lawn&Garden.html" class="lawngarden">Lawn & Garden Care</a>
+		<a href="services/powerWashing.html" class="powerWashing">Power Washing</a>
+		<a href="services/tree.html" class="tree">Tree Service</a>
+		<a href="services/requestService.html" class="requestService">Request Service/Quote</a>
+		<a href="viewOurWork.html" class="ourWork">View Our Work</a>
+		<a href="contact.html" class="contact">Contact Us</a>
+</div>
+<nav>
+	<ul>
+		<li><a href="index.html" class="index">Home</a></li>
+		<li class="dropdown">
+			<a href="about.html" class="dropbtn about">About Us</a>
+			<div class="dropdown-content">
+				<a href="about/ourTeam.html" class="ourTeam">Our Team</a>
+				<a href="about/testimonials.html" class="testimonial">Testimonials</a>
+			</div>
+		</li>
+		<li class="dropdown">
+			<a href="services.html" class="dropbtn services">Our Services</a>
+			<div class="dropdown-content">
+				<a href="services/designers.html" class="designers">Designers & Decorators</a>
+				<a href="services/landscaping.html" class="landscaping">Landscaping</a>
+				<a href="services/lawn&Garden.html" class="lawngarden">Lawn & Garden Care</a>
+				<a href="services/powerWashing.html" class="powerWashing">Power Washing</a>
+				<a href="services/tree.html" class="tree">Tree Service</a>
+				<a href="services/requestService.html" class="requestService">Request Service/Quote</a>
+			</div>
+		</li>
+		<li><a href="viewOurWork.html" class="ourWork">View Our Work</a></li>
+		<li><a href="contact.html" class="contact">Contact Us</a></li>
+	</ul>
+</nav>
+<div id="flexbox">
+<main class="center">
+
+	<div id="splashText">
+	<h1><span class="mainHeader">View Our Work</span><img src="images/leaf_accent.png" alt="leaf accent" style="width:33px;"></h1>
+	</div>
+		<hr class="mainRule">
+	<div id="mainContent">
+	<!--Gallery-->
+		<div class="row">
+			<div class="column">
+				<img src="images/patio_1.jpg" alt="Patio" style="width:100%" onclick="gallery(this);">
+			</div>
+			<div class="column">
+				<img src="images/shrubs.jpg" alt="Hedges" style="width:100%" onclick="gallery(this);">
+			</div>
+			<div class="column">
+				<img src="images/path.jpg" alt="Path" style="width:100%" onclick="gallery(this);">
+			</div>
+			<div class="column">
+				<img src="images/patio_2.jpg" alt="Outdoor Living Space" style="width:100%" onclick="gallery(this);">
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<img src="images/landscape_splash.jpg" alt="Front Garden" style="width:100%" onclick="gallery(this);">
+			</div>
+			<div class="column">
+				<img src="images/commercial.jpg" alt="Commercial Maintenance" style="width:100%" onclick="gallery(this);">
+			</div>
+			<div class="column">
+				<img src="images/front_garden.jpg" alt="Florida Garden" style="width:100%" onclick="gallery(this);">
+			</div>
+			<div class="column">
+				<img src="images/garden_bed.jpg" alt="Pinestraw & Flowring Shrubs" style="width:100%" onclick="gallery(this);">
+			</div>
+		</div>		
+		<div class="row">
+			<div class="column">
+				<img src="images/garden_bed2.jpg" alt="Garden Bed" style="width:100%" onclick="gallery(this);">
+			</div>
+			<div class="column">
+				<img src="images/lake_garden.jpg" alt="Lake Garden" style="width:100%" onclick="gallery(this);">
+			</div>
+			<div class="column">
+				<img src="images/lawncare.jpg" alt="Trimmed Lawn" style="width:100%" onclick="gallery(this);">
+			</div>
+			<div class="column">
+				<img src="images/path2.jpg" alt="Paver Path & Garden" style="width:100%" onclick="gallery(this);">
+			</div>
+		</div>		
+		<div class="row">
+			<div class="column">
+				<img src="images/saplings.jpg" alt="Saplings" style="width:100%" onclick="gallery(this);">
+			</div>
+			<div class="column">
+				<img src="images/veranda.jpg" alt="Veranda" style="width:100%" onclick="gallery(this);">
+			</div>
+			<div class="column">
+				<img src="images/landscape_bp.jpg" alt="Landscaping Blueprint" style="width:100%" onclick="gallery(this);">
+			</div>
+			<div class="column">
+				<img src="images/landscaping.jpg" alt="Tools of the Trade" style="width:100%" onclick="gallery(this);">
+			</div>
+		</div>
+	<!--Full Image-->
+		<div class="expandedContainer">
+			<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+				<img id="expandedImg" src="/images/logo.png" alt="Enlarged Image" style="width:100%">
+			<div id="imgtext"></div>
+		</div>
+	<!--Gallery End-->	
+	</div>
+</main>
+</div>
+<button onclick="topFunction()" id="toTop" title="Go to top">&nbsp;&nbsp;Top&nbsp;&nbsp;</button>
+<footer>
+<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		<li><a href="services.html">Services</a></li>
+		<li><a href="sitemap.html">Sitemap</a></li>
+	</ul>
+Copyright &copy; 2018 Noble Landscaping LLC. All rights reserved.<br><a href="mailto:Michael@Fontecchio.com">Michael@Fontecchio.com</a>
+</footer>
+</div>
+</body>
+</html>

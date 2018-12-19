@@ -1,0 +1,41 @@
+
+#services #mainContent ul{
+	padding: 0;
+	margin-left: 50%;
+	transform: translate(-50%);
+	list-style-type: none;
+	width: 75%;
+}
+#services #mainContent li {
+	padding: 1em;
+	margin: 1em;
+}
+#designersList {
+	background-image: url("../images/design.jpg");
+	background-size:cover;
+}
+#landscapingList {
+	background-image: url("../images/landscaping.jpg");
+	background-size:cover;
+}
+#lawnList {
+	background-image: url("../images/lawn.jpg");
+	background-size:cover;
+}
+#powerwashList {
+	background-image: url("../images/pressure_washing.jpg");
+	background-size:cover;
+}
+#treeList {
+	background-image: url("../images/tree.jpg");
+	background-size:cover;
+}
+#services #mainContent li a {
+	text-decoration: none;
+	display: block;
+	padding: 16px;
+	color: #fffff9;
+	font-size: 18pt;
+	font-weight: bold;
+	text-shadow: 2px 1px 2px #000;
+}
